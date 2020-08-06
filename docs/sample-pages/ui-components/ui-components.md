@@ -4,7 +4,7 @@ title: UI Components
 nav_order: 3
 has_children: true
 parent: Sample Pages
-permalink: docs/sample-pages/nav-2
+permalink: docs/sample-pages/ui-components
 ---
 
 # UI Components
