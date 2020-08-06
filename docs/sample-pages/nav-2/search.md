@@ -2,6 +2,7 @@
 layout: default
 title: Search
 parent: Nav 2
+grand_parent: Sample Pages
 nav_order: 1
 ---
 

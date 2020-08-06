@@ -3,6 +3,7 @@ layout: default
 title: Nav 2
 nav_order: 3
 has_children: true
+parent: Sample Pages
 permalink: docs/sample-pages/nav-2
 ---
 
