@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Configuration
-parent: Sample Pages
 nav_order: 2
 ---
 
