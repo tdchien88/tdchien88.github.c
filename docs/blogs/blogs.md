@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Nav 2
+title: Blogs
 nav_order: 3
 has_children: true
-parent: Sample Pages
-permalink: docs/sample-pages/nav-2
+permalink: docs/blogs
 ---
 
 # Nav 2
