@@ -3,7 +3,7 @@ layout: default
 title: Make by me
 nav_order: 3
 has_children: true
-permalink: docs/blogs
+permalink: docs/make-by-me
 ---
 
 # MAKE BY ME
