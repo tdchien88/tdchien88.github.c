@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Navigation Structure
-nav_order: 5
+parent: Sample Pages
+nav_order: 4
 ---
 
 # Navigation Structure
