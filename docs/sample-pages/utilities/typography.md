@@ -3,6 +3,7 @@ layout: default
 title: Typography
 parent: Utilities
 grand_parent: Sample Pages
+nav_order: 4
 ---
 
 # Typography Utilities

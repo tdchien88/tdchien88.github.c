@@ -3,6 +3,7 @@ layout: default
 title: Layout
 parent: Utilities
 grand_parent: Sample Pages
+nav_order: 2
 ---
 
 # Layout Utilities

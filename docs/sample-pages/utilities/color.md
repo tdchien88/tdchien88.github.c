@@ -3,6 +3,7 @@ layout: default
 title: Color
 parent: Utilities
 grand_parent: Sample Pages
+nav_order: 1
 ---
 
 # Color Utilities

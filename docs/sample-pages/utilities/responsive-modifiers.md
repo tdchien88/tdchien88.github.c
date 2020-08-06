@@ -3,6 +3,7 @@ layout: default
 title: Responsive Modifiers
 parent: Utilities
 grand_parent: Sample Pages
+nav_order: 3
 ---
 
 # Responsive modifiers
