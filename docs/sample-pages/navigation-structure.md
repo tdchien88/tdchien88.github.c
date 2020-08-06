@@ -73,7 +73,7 @@ Sometimes you will want to create a page with many children (a section). First, 
 +-- ..
 |-- (Jekyll files)
 |
-|-- docs
+|-- docs/sample-pages
 |   |-- ui-components
 |   |   |-- index.md  (parent page)
 |   |   |-- buttons.md
