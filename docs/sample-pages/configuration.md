@@ -2,7 +2,7 @@
 layout: default
 title: Configuration
 parent: Sample Pages
-nav_order: 1
+nav_order: 2
 ---
 
 # Configuration
