@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About
-nav_order: 9
+title: Configuration
+nav_order: 2
 ---
 
-# About
+# Configuration
 {: .no_toc }
 
 
