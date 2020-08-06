@@ -2,7 +2,7 @@
 layout: default
 title: Search
 parent: Sample Pages
-nav_order: 6
+nav_order: 4
 ---
 
 # Search

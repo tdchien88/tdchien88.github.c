@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sample Pages
-nav_order: 99
+nav_order: 3
 has_children: true
 permalink: docs/sample-pages
 ---

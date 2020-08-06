@@ -2,7 +2,7 @@
 layout: default
 title: Navigation Structure
 parent: Sample Pages
-nav_order: 4
+nav_order: 99
 ---
 
 # Navigation Structure

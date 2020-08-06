@@ -2,7 +2,7 @@
 layout: default
 title: Customization
 parent: Sample Pages
-nav_order: 5
+nav_order: 2
 ---
 
 # Customization
