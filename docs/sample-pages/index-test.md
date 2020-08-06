@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Markdown kitchen sink
+parent: Sample Pages
 nav_order: 99
 ---
 
