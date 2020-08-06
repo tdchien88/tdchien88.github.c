@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Utilities
-nav_order: 4
+nav_order: 3
 has_children: true
-permalink: docs/utilities
+parent: Sample Pages
+permalink: docs/sample-pages/utilities
 ---
 
 # Utilities

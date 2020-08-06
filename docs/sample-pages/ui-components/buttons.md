@@ -2,6 +2,7 @@
 layout: default
 title: Buttons
 parent: UI Components
+grand_parent: Sample Pages
 nav_order: 2
 ---
 

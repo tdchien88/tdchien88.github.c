@@ -1,9 +1,10 @@
 ---
 layout: default
 title: UI Components
-nav_order: 8
+nav_order: 2
 has_children: true
-permalink: /docs/ui-components
+parent: Sample Pages
+permalink: /docs/sample-pages/ui-components
 ---
 
 # UI Components
