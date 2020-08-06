@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Search
+parent: Sample Pages
 nav_order: 1
 ---
 

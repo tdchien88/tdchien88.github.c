@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Search
+parent: Nav 2
 nav_order: 1
 ---
 
