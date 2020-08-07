@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tdchien88/tdchien88.github.io.png?branch=master)](https://travis-ci.org/tdchien88/tdchien88.github.io)
+![Build Status](https://action-badges.now.sh/tdchien88/tdchien88.github.io)
 ===============
 
 <br><br>
