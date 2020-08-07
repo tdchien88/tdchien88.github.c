@@ -1,4 +1,4 @@
-![Build Status](https://action-badges.now.sh/tdchien88/tdchien88.github.io)
+<p align="right"><a href="tdchien88/tdchien88.github.io"><img src="https://action-badges.now.sh/tdchien88/tdchien88.github.io" /></a></p>
 ===============
 
 <br><br>
