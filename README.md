@@ -1,7 +1,4 @@
-<p align="right"><a href="tdchien88/tdchien88.github.io"><img src="https://action-badges.now.sh/tdchien88/tdchien88.github.io" /></a></p>
-===============
-
-<br><br>
+<p align="right"><a href="tdchien88/tdchien88.github.io"><img src="https://action-badges.now.sh/tdchien88/tdchien88.github.io" /></a></p>  
 <p align="center">
     <h1 align="center">TDChien88's Docs</h1>
     <p align="center">This is Chien and here are my documents</p>
