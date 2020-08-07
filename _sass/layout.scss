@@ -32,9 +32,7 @@
   }
 
   @include mq(lg) {
-    margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
-    );
+    margin-left: calc( (100% - #{$nav-width + $content-width}) / 2 +  #{$nav-width});
   }
 }
 
@@ -119,7 +117,6 @@
   padding-bottom: $sp-3;
   color: $body-heading-color;
   @include fs-6;
-
   @include mq(md) {
     padding-top: $sp-2;
     padding-bottom: $sp-2;
@@ -151,19 +148,12 @@
 }
 
 .site-title:hover {
-  background-image: linear-gradient(
-    -90deg,
-    rgba($feedback-color, 1) 0%,
-    rgba($feedback-color, 0.8) 80%,
-    rgba($feedback-color, 0) 100%
+  background-image: linear-gradient( -90deg, rgba($feedback-color, 1) 0%, rgba($feedback-color, 0.8) 80%, rgba($feedback-color, 0) 100%
   );
 }
 
 .site-button:hover {
-  background-image: linear-gradient(
-    -90deg,
-    rgba($feedback-color, 1) 0%,
-    rgba($feedback-color, 0.8) 100%
+  background-image: linear-gradient( -90deg, rgba($feedback-color, 1) 0%, rgba($feedback-color, 0.8) 100%
   );
 }
 
@@ -173,7 +163,6 @@ body {
   position: relative;
   padding-bottom: $sp-10;
   overflow-y: scroll;
-
   @include mq(md) {
     position: static;
     padding-bottom: 0;
@@ -191,7 +180,6 @@ body {
   padding-bottom: $sp-4;
   color: $grey-dk-000;
   @include fs-2;
-
   @include mq(md) {
     position: static;
     justify-self: end;

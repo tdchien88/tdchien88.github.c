@@ -50,7 +50,6 @@
         content: counter(step-counter);
         counter-increment: step-counter;
         @include fs-3;
-
         @include mq(sm) {
           top: 0.11em;
         }
