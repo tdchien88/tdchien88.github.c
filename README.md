@@ -2,7 +2,7 @@
 <br><br>
 <p align="center">
     <h1 align="center">TDChien88's Docs</h1>
-    <p align="center">This is TDChien and here are my documents</p>
+    <p align="center">This is Chien and here are my documents</p>
     <p align="center"><strong><a href="https://tdchien88.github.io/">Read me!</a></strong></p>
     <br><br><br>
 </p>
