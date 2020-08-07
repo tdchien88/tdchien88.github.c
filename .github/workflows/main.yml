@@ -1,33 +1,45 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on:
+on: 
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+    - master
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+name: Master branch CI
+
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+
+  jekyll-latest:
+    name: Build Jekyll site (latest)
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@master
+
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run --rm \
+        --volume="${{ github.workspace }}:/srv/jekyll" \
+        jekyll/builder:latest /bin/bash -c "gem install bundler && chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build && bundle exec rake search:init"
+  jekyll-3-8-5:
+    name: Build Jekyll site (v3.8.5)
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@master
+
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run --rm \
+        --volume="${{ github.workspace }}:/srv/jekyll" \
+        jekyll/builder:3.8.5 /bin/bash -c "gem install bundler && chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build && bundle exec rake search:init"
+  assets:
+    name: Format and test CSS and JS
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - run: npm install
+    - run: npm test
