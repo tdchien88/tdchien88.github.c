@@ -8,11 +8,11 @@
     "declaration-empty-line-before": [ 
       "always", 
         {
-          except: [
+          "except": [
             "after-declaration",
             "first-nested",
           ],
-          ignore: [
+          "ignore": [
             "after-comment",
             "inside-single-line-block",
           ],
