@@ -7,6 +7,8 @@
 
 .main-content {
   line-height: $content-line-height;
+  width: $main-content-width;
+  float: left;
 
   ol,
   ul,

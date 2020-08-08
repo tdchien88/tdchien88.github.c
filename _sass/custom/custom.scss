@@ -26,3 +26,12 @@ blockquote {
 blockquote p {
     display: inline;
 }
+
+.nav-toc {
+    width: $nav-toc-width;
+    margin: 10px 0px 0px $main-content-width;
+    position: fixed;
+}
+.section-nav {
+    margin: 5px 0;
+}
