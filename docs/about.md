@@ -6,9 +6,8 @@ nav_order: 99
 
 # About me
 
->Hi, this is **Chien**.   
->I'm a full stack engineer.    
->I'm living in Japan from 2016 and fall in love with Cà phê sữa đá.  
+>Hi, this is **Chien**, a full stack engineer.    
+>I'm living in Japan from 2016 and fall in love with "Cà phê sữa đá".  
 
 
 
@@ -35,8 +34,8 @@ nav_order: 99
 
 
 ## I can speak
-- English
 - 日本語
+- English
 - Tiếng Việt
 
 
