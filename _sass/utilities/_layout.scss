@@ -57,6 +57,14 @@
   float: right !important;
 }
 
+.clearfix:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
 .flex-justify-start {
   justify-content: flex-start !important;
 }

@@ -1,3 +1,10 @@
+# gitignore jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+## gitignore ruby
 *.gem
 *.rbc
 /.config
