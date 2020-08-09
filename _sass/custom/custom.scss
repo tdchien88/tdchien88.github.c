@@ -32,6 +32,55 @@ blockquote p {
     margin: 10px 0px 0px $main-content-width;
     position: fixed;
 }
-.section-nav {
+.scroll-nav {
     margin: 5px 0;
+    width: $nav-toc-width;
+    margin: 10px 0px 0px $main-content-width;
+    position: fixed;
+}
+
+
+.scroll-nav__list, .scroll-nav__sub-list {
+margin: 0;
+padding-left: 1.4em;
+list-style-type: none;
+line-height: 20px;
+&:hover{
+    color:$purple-000;
+}
+}
+
+
+
+.scroll-nav__item {
+margin-bottom: 5px;
+list-style-type: none;
+color:$grey-dk-300;
+&:hover{
+    color:$purple-000;
+}
+}
+
+.scroll-nav__item--active > a {
+//padding: 5px;
+font-weight: bold;
+position: relative;
+color:$purple-000;
+//background: $red;
+text-decoration: none;
+//transition: 0.5s;
+&:hover{
+    color:$purple-300;
+}
+}
+
+.scroll-nav__link {
+color:$grey-dk-300;
+text-decoration: none;
+//display: block;
+//margin: 0 auto;
+//padding-left: 42px;
+&:hover{
+    color:$purple-000;
+}
 }

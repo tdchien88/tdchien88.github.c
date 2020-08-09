@@ -85,10 +85,7 @@ layout: table_wrappers
     </div>
 
     <div id="main-content-wrap" class="main-content-wrap clearfix">
-      <div id="nav-toc" class="nav-toc scroll-nav">
-        {{ content | toc_only }}
-      </div>
-
+      
       <div id="main-content" class="main-content" >
         {% unless page.url == "/" %}
           {% if page.parent %}

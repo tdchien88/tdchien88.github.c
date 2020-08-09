@@ -468,4 +468,5 @@ jtd.onReady(function(){
 
 })(window.jtd = window.jtd || {});
 
+{% include js/scrollnav.min.umd.js %}
 {% include js/custom.js %}

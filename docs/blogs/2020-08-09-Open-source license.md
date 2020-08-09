@@ -5,7 +5,6 @@ title: Open-source license
 last_modified_date: 2020-08-09
 tags: [tag1, tag2]
 summary: Summary of the article
-toc: true
 ---
 
 # Open-source license

@@ -3,17 +3,10 @@ layout: default
 title: Customization
 parent: Sample Pages
 nav_order: 6
-toc: true
 ---
 
 # Customization
 {: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ---
 
