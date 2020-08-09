@@ -78,9 +78,11 @@
 
 
 ---
-## Me on Github :octocat:
+## Me on Github :octocat: 
 
-<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=tdchien88&show_icons=true&hide_border=true" />
+<p align="center">
+<img alt="TDChien88's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=tdchien88&show_icons=true&hide_border=true" />
+</p>
 
 <br />
 <br />
