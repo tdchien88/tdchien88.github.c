@@ -10,7 +10,7 @@
         return E
     }
     function h(f, h) {
-        if ("object" != typeof f)
+        if ("object" != typeof f || f.getBoundingClientRect == undefined)
             return Promise.reject(new Error("First argument must be an object"));
         if ("object" != typeof (h = h || document.body))
             return Promise.reject(new Error("Second argument must be an object"));

@@ -81,6 +81,8 @@ blockquote p {
     color: $purple-000;
     text-decoration: none;
     transition: 0.5s;
+    padding-left: 5px;
+    border-left: 2px solid $purple-000;
 }
 
 .scroll-nav__link {
