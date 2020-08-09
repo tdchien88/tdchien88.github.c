@@ -33,10 +33,11 @@ blockquote p {
     position: fixed;
 }
 .scroll-nav {
-    margin: 5px 0;
     width: $nav-toc-width;
-    margin: 10px 0px 0px $main-content-width;
-    position: fixed;
+    @include mq(lg) {
+        margin: 10px 0px 0px $main-content-width;
+        position: fixed;
+    }
 }
 
 
