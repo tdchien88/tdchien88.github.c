@@ -38,12 +38,10 @@
 
 .main-content-wrap {
   @include container;
-  padding-top: $gutter-spacing-sm;
-  padding-bottom: $gutter-spacing-sm;
+  padding: $gutter-spacing-sm $sp-4;
 
   @include mq(md) {
-    padding-top: $gutter-spacing;
-    padding-bottom: $gutter-spacing;
+    padding: $gutter-spacing $sp-4;
   }
 }
 

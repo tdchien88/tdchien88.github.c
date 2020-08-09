@@ -27,61 +27,63 @@ blockquote p {
     display: inline;
 }
 
-.nav-toc {
-    width: $nav-toc-width;
-    margin: 10px 0px 0px $main-content-width;
-    position: fixed;
-}
 .scroll-nav {
-    width: $nav-toc-width;
+    padding: 1em 0em 1em 0.5em;
+    border-left: none;
+    border-bottom: 1px $grey-lt-100 dashed;
+
     @include mq(lg) {
-        margin: 10px 0px 0px $main-content-width;
+        width: $nav-toc-width;
+        margin: 1em 0em 0em $main-content-width;
         position: fixed;
+        border-left: 1px $grey-lt-100 dashed;
+        border-bottom: none;
+    }
+
+    &:before {
+        content: "CONTENTS";
+        border-bottom: 5px solid $purple-000;
+        display: block;
+        padding: 5px 10px;
+        @include mq(lg) {
+        margin-top: -30px;
+        }
     }
 }
 
-
-.scroll-nav__list, .scroll-nav__sub-list {
-margin: 0;
-padding-left: 1.4em;
-list-style-type: none;
-line-height: 20px;
-&:hover{
-    color:$purple-000;
+.scroll-nav__list,
+.scroll-nav__sub-list {
+    margin: 0;
+    padding-left: 0em !important;
+    list-style-type: none;
+    line-height: 20px;
+    overflow: hidden;
 }
-}
-
-
 
 .scroll-nav__item {
-margin-bottom: 5px;
-list-style-type: none;
-color:$grey-dk-300;
-&:hover{
-    color:$purple-000;
+    margin-bottom: 5px;
+    list-style-type: none;
+    color: $grey-dk-300;
 }
+
+.scroll-nav__item > a {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    &:hover {
+        border-bottom: 1px solid $purple-000;
+    }
 }
 
 .scroll-nav__item--active > a {
-//padding: 5px;
-font-weight: bold;
-position: relative;
-color:$purple-000;
-//background: $red;
-text-decoration: none;
-//transition: 0.5s;
-&:hover{
-    color:$purple-300;
-}
+    position: relative;
+    color: $purple-000;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
 .scroll-nav__link {
-color:$grey-dk-300;
-text-decoration: none;
-//display: block;
-//margin: 0 auto;
-//padding-left: 42px;
-&:hover{
-    color:$purple-000;
-}
+    color: $grey-dk-300;
+    text-decoration: none;
 }

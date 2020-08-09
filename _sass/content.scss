@@ -7,7 +7,10 @@
 
 .main-content {
   line-height: $content-line-height;
+  padding-right: $sp-4;
+  @include mq(lg) {
   width: $main-content-width;
+  }
   float: left;
 
   ol,
