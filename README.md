@@ -57,7 +57,7 @@
 
 
 
-## Connect with me
+## Connect with me 👀
 🌐 <a class="link-gray-dark " href="https://tdchien88.github.io/">https://tdchien88.github.io/</a>  
 ✉️ <a class="u-email link-gray-dark " href="tdchien88@gmail.com">tdchien88@gmail.com</a>  
 
