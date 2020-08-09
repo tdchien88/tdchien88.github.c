@@ -13,11 +13,19 @@
 
 # About me
 
-## Hi there, I'm **Chien**. 👋  
+### Hi there, I'm **Chien**. 👋  
 > I'm a BrSE and full stack engineer.   
-> I fall in love with "Cà phê sữa đá".  
+> I fall in love with "Cà phê sữa đá". 
 
----
+## I can speak
+- 日本語🗻
+- English🗽
+- Tiếng Việt🇻🇳
+
+## Love to do
+- Make tools for boring tasks
+- Learn and try new things
+
 
 ## Skill
 
@@ -55,16 +63,6 @@
 
 <br />
 <br />
-
-## Love to do
-- Make tools for boring tasks
-- Learn and try new things
-
-
-## I can speak
-- 日本語🗻
-- English🗽
-- Tiếng Việt🇻🇳
 
 
 
