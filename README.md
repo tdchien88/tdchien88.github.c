@@ -11,23 +11,24 @@
 
 ---
 
-# About me
+# About me 😎
 
 ### Hi there, I'm **Chien**. 👋  
 > I'm a BrSE and full stack engineer.   
 > I fall in love with "Cà phê sữa đá". 
 
-## I can speak
-- 日本語🗻
-- English🗽
-- Tiếng Việt🇻🇳
+## I can speak 💬
+- 日本語🗻  
+- English🗽  
+- Tiếng Việt🇻🇳  
+- $&#%👽 
 
-## Love to do
-- Make tools for boring tasks
+## Love to do 😘
+- Make tools for boring tasks  
 - Learn and try new things
 
 
-## Skill
+## Skill 💮 
 
 ### ■　Backend
 
@@ -67,7 +68,8 @@
 
 
 ## Connect with me
-✉️ <a class="u-email link-gray-dark " href="tdchien88@gmail.com">tdchien88@gmail.com</a>
+🌐 <a class="link-gray-dark " href="https://tdchien88.github.io/">https://tdchien88.github.io/</a>  
+✉️ <a class="u-email link-gray-dark " href="tdchien88@gmail.com">tdchien88@gmail.com</a>  
 
 
 <br />
@@ -76,7 +78,7 @@
 
 
 ---
-## Me on Github
+## Me on Github :octocat:
 
 <img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=tdchien88&show_icons=true&hide_border=true" />
 
