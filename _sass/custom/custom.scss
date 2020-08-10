@@ -103,9 +103,6 @@ blockquote p {
 .tags-item {
     padding: 0px 5px;
     display: table-cell;
-    &:after {
-        content: ",";
-    }
     
 }
 
