@@ -19,7 +19,7 @@
 - [Just the Docs](https://github.com/pmarsceill/just-the-docs) - Jekyll Themes.
 - [scrollnav.js](http://scrollnav.com/) - Scroll Table of Contents
 - [Jekyll Spaceship](https://github.com/jeffreytse/jekyll-spaceship) - Jekyll plugin for Astronauts.
-- [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) - Deploy Jekyll to git pages
+- [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) - Build and deploy the Jekyll site to Github Pages
 
 ## License
 This software is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © TDChien88.
