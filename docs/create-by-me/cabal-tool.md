@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cabal Tool
-parent: Make by me
+parent: Create by me
 nav_order: 1
 ---
 
