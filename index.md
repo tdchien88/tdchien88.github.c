@@ -28,4 +28,8 @@ permalink: /
 - [Cabal Tool TDChien88]({{ site.baseurl }}{% link docs/make-by-me/cabal-tool.md %})
 
 ## Pinned Articles:
-- [Open source license]({{ site.baseurl }}{% link docs/blogs/2020-08-09-Open-source license.md %})
+- [Open source license]({{ site.baseurl }}{% link docs/blogs/git/2020-08-09-Open-source license.md %})
+
+
+
+## Pinned Articles:

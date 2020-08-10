@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-nav_order: 99
+title: About Me
+nav_order: 2
 ---
 
 ## Hi there, I'm **Chien**. 👋  

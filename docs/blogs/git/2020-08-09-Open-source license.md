@@ -1,6 +1,7 @@
 ---
 layout: default
-parent: Blogs
+parent: GIT
+grand_parent: Blogs
 title: Open-source license
 last_modified_date: 2020-08-09
 tags: [tag1, tag2]

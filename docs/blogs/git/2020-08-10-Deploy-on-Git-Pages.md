@@ -1,6 +1,7 @@
 ---
 layout: default
-parent: Blogs
+parent: GIT
+grand_parent: Blogs
 title: Deploy on Git Pages
 last_modified_date: 2020-08-09
 tags: [tag1, tag2]

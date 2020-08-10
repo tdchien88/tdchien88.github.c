@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Blogs
-nav_order: 4
+title: GIT
+nav_order: 2
 has_children: true
-permalink: docs/blogs
+parent: Blogs
+permalink: docs/blogs/git
 ---
 
 # Blogs
