@@ -89,3 +89,18 @@ blockquote p {
     color: $grey-dk-300;
     text-decoration: none;
 }
+
+
+/* chart */
+// bar 
+.bar-bg {
+    background: $grey-lt-000; 
+    padding:0px
+}
+.bar-title {
+    color: white; 
+    width:100px;
+}
+.bar-percent {
+    color: white; 
+}

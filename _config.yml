@@ -98,6 +98,7 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-spaceship
 
 compress_html:
   clippings: all
@@ -106,3 +107,58 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+# jekyll-spaceship Where things are
+jekyll-spaceship:
+  # default enabled processors
+  processors:
+    - table-processor
+    - mathjax-processor
+    - plantuml-processor
+    - mermaid-processor
+    - polyfill-processor
+    - video-processor
+    - emoji-processor
+    - element-processor
+  mathjax-processor:
+    src:
+      - https://polyfill.io/v3/polyfill.min.js?features=es6
+      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    config:
+      tex:
+        inlineMath:
+          - ['$','$']
+          - ['\(','\)']
+      svg:
+        fontCache: 'global'
+  plantuml-processor:
+    mode: default  # mode value 'pre-fetch' for fetching image at building stage
+    css:
+      class: plantuml
+    syntax:
+      code: 'plantuml!'
+      custom: ['@startuml', '@enduml']
+    src: http://www.plantuml.com/plantuml/png/
+  mermaid-processor:
+    mode: default  # mode value 'pre-fetch' for fetching image at building stage
+    css:
+      class: mermaid
+    syntax:
+      code: 'mermaid!'
+      custom: ['@startmermaid', '@endmermaid']
+    config:
+      theme: default
+    src: https://mermaid.ink/svg/
+  video-processor:
+    default:
+      id: 'video-{id}'
+      class: 'video'
+      width: '100%'
+      height: 350
+      border: 0
+      style: 'max-width: 600px'
+      allow: 'encrypted-media; picture-in-picture'
+  emoji-processor:
+    css:
+      class: emoji
+    src: https://github.githubassets.com/images/icons/emoji/
