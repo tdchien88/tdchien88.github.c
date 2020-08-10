@@ -4,7 +4,7 @@ parent: GIT
 grand_parent: Articles
 title: Open-source license
 last_modified_date: 2020-08-09
-tags: [tag1, tag2]
+tags: [git, open-source, license]
 summary: Summary of the article
 ---
 

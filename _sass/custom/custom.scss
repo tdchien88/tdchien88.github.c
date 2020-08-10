@@ -90,6 +90,29 @@ blockquote p {
     text-decoration: none;
 }
 
+/* tags */
+.tags{
+    display: block;
+    list-style-type: none;
+    font-size: 14px;
+}
+.tags-title{
+    display: table-cell;
+}
+
+.tags-item {
+    padding: 0px 5px;
+    display: table-cell;
+    &:after {
+        content: ",";
+    }
+    
+}
+
+.tags-item > a {
+    background-image: none;
+    text-decoration: none;
+}
 
 /* chart */
 // bar 

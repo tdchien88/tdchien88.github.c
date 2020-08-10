@@ -103,6 +103,15 @@ layout: table_wrappers
           {% endif %}
         {% endunless %}
 
+        {% if page.tags %}
+          <nav aria-label="tags" class="tags">
+              <span class="tags-title">Tags: </span>
+              {% for tag in page.tags %}
+                <li class="tags-item "><a href="/docs/articles/tag/#{{ tag | slugify }}"> {{ tag }} </a></li>
+              {% endfor %} 
+          </nav>
+        {% endif %}
+
         {% if site.last_edit_timestamp or site.gh_edit_link%}
         <div class="clearfix">
           <div class="d-flex mt-2 float-right">
@@ -136,7 +145,7 @@ layout: table_wrappers
 
           {% if page.has_children == true and page.has_toc != false %}
             <hr>
-            <h3 class="no_toc text-delta">Table of contents</h3>
+            <h3 class="text-delta">Table of contents</h3>
             <ul>
               {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
               {% for child in children_list %}
