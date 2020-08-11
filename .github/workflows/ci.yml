@@ -62,4 +62,4 @@ jobs:
           bash tools/build.sh
       - name: Test Site
         run: |
-          bash tools/test.sh
+          bash tools/publish.sh
