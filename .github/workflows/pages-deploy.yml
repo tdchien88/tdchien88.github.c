@@ -54,7 +54,7 @@ jobs:
           bash tools/test.sh
 
   deploy:
-    needs: build-n-test
+ #   needs: build-n-test
     runs-on: ubuntu-latest
 
     steps:
