@@ -16,8 +16,7 @@
 
 ## Credits
 - [Jekyll](https://github.com/jekyll/jekyll) - A blog-aware static site generator in Ruby.
-- [Just the Docs](https://github.com/pmarsceill/just-the-docs) - Jekyll Themes.
-- [scrollnav.js](http://scrollnav.com/) - Scroll Table of Contents
+- [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) - Jekyll Themes.
 - [Jekyll Spaceship](https://github.com/jeffreytse/jekyll-spaceship) - Jekyll plugin for Astronauts.
 - [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) - Build and deploy the Jekyll site to Github Pages
 

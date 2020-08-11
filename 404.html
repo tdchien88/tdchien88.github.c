@@ -1,11 +1,20 @@
 ---
-layout: default
-title: Page not found
-permalink: /404
-nav_exclude: true
-search_exclude: true
+layout: page
+title: "404: Page not found"
+permalink: /404.html
+
+redirect_from:  # part of site.sitemap_exclude
+  - /norobots/
+  - /assets/
+  - /tabs/
+  - /categories/
+  - /tags/
+  - /posts/
+
+dynamic_title: true
 ---
 
-<h1>Page not found</h1>
-
-<p>The page you requested could not be found. Try using the navigation {% if site.search_enabled != false %}or search {% endif %}to find what you're looking for or go to this <a href="{{ '/' | absolute_url }}">site's home page</a>.</p>
+<div class="lead">
+  <p>Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. </p>
+  <p><a href="{{ site.baseurl }}/">Head back Home</a> to try finding it again, or search for it on the <a href="{{ site.baseurl }}/tabs/archives">Archives page</a>.</p>
+</div>
