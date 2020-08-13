@@ -3,6 +3,8 @@
 
 -->
 
+<script src="{{ '/assets/js/custome/main.js' | relative_url }}" async></script>
+
 {% if page.layout == 'home' %}
 
   <script src="{{ '/assets/js/home.min.js' | relative_url }}" async></script>
@@ -36,3 +38,4 @@
 {% if jekyll.environment == 'production' %}
   <script src="{{ '/app.js' | relative_url }}" defer></script>
 {% endif %}
+
