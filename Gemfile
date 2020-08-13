@@ -4,6 +4,7 @@ gem "jekyll", ">=3.8.6"
 
 # Official Plugins
 group :jekyll_plugins do
+  gem "kramdown-parser-gfm"
   gem 'jekyll-spaceship'
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
