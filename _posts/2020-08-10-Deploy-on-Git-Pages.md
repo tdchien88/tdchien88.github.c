@@ -1,7 +1,7 @@
 ---
 title: Deploy on Git Pages
 author: TDChien88
-date: 2020-08-09
+date: 2020-08-10
 tags: [git, deploy]
 categories: [Blogging, Tutorial]
 summary: Summary of the article

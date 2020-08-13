@@ -2,7 +2,7 @@
 title: Open source license
 author: TDChien88
 date: 2020-08-09
-tags: [git, opensource, license]
+tags: [git, open source, license]
 categories: [Blogging, Tutorial]
 summary: Summary of the article
 ---
