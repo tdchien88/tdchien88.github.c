@@ -59,9 +59,8 @@ title: About
 
 
 ## Connect with me 👀
-🌐 <a class="link-gray-dark " href="https://tdchien88.github.io/">https://tdchien88.github.io/</a>  
-✉️ <a class="u-email link-gray-dark " href="tdchien88@gmail.com">tdchien88@gmail.com</a>  
-
+<i class="fas fa-globe"></i> <a class="link-gray-dark " href="https://tdchien88.github.io/">https://tdchien88.github.io/</a>  
+<i class="fas fa-envelope"></i> <a href="javascript:window.open('mailto: tdchien88@gmail.com')"> tdchien88@gmail.com </a>  
 
 
 ## Donate me 
