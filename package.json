@@ -1,0 +1,22 @@
+{
+  "name": "tdchien88.github.io",
+  "version": "0.1.0",
+  "description": "TDChien88's Doc",
+  "repository": "tdchien88/tdchien88.github.io",
+  "license": "MIT",
+  "devDependencies": {
+    "@primer/css": "^14.4.0",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-primer": "^9.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-selector-no-utility": "^4.0.0"
+  },
+  "scripts": {
+    "test": "stylelint '**/*.scss'",
+    "format": "prettier --write '**/*.{scss,js,json}'",
+    "stylelint-check": "stylelint-config-prettier-check"
+  },
+  "dependencies": {}
+}
